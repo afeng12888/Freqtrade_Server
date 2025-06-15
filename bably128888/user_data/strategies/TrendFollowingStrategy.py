@@ -10,7 +10,7 @@ class TrendFollowingStrategy(IStrategy):
 
     INTERFACE_VERSION: int = 3
     # short
-    can_short = True
+    #  can_short = True
 
     # ROI table:
     minimal_roi = {"0": 0.15, "30": 0.1, "60": 0.05}

@@ -1,3 +1,5 @@
+# 这个是一个垃圾策略，不好用
+
 from functools import reduce
 from pandas import DataFrame
 from freqtrade.strategy import IStrategy
@@ -25,7 +27,7 @@ class TrendReversalStrategy(IStrategy):
     trailing_only_offset_is_reached = False
 
     timeframe = "5m"
-
+    
     def leverage(self, pair: str, current_time: 'datetime', current_rate: float,
                  proposed_leverage: float, max_leverage: float, side: str,
                  **kwargs) -> float:

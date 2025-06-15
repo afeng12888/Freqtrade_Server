@@ -60,11 +60,11 @@
     "api_server": {
         "enabled": false,
         "listen_ip_address": "127.0.0.1",
-        "listen_port": 8081,
+        "listen_port": 8080,
         "verbosity": "error",
         "enable_openapi": false,
-        "jwt_secret_key": "a5075aab4a173d4b8c377fdfe09d1dd94307a9b31b7dd19f88fc9e6faf1a8431",
-        "ws_token": "3h0xeIEI3ZrKa8Y-oswETTOIV6h7IsgaUA",
+        "jwt_secret_key": "855c54ec7e3433f501aace13787a668b917b6b6b3ff75a41ee55f87840b397ba",
+        "ws_token": "Hh2y1R2hpnw5O5ENiXecs88_1lz0S0ccQg",
         "CORS_origins": [],
         "username": "",
         "password": ""
